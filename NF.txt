@@ -1,0 +1,12 @@
+Table	1NF	2NF	3NF	BCNF	Reason
+T1	N				K1,K2 has duplicate key values
+T2	Y	Y	Y	Y	
+T3	Y	N			[K1->D]
+T4	Y	Y	Y	N	[D,E->K2]
+T50	Y	N			[K1,K2->A, K1,K2->B]
+T6	Y	Y	Y	Y	
+S7	Y	Y	Y	Y	
+T8	Y	Y	N		[A->B]
+T9	Y	Y	N		[A,B->C]
+G10	Y	Y	Y	Y	
+R7	Y	Y	N		[A->B, B->C]

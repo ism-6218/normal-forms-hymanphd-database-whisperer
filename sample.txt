@@ -1,0 +1,11 @@
+T1(K1(k),K2(k),A)
+T2(K1(k),A)
+T3(K1(k),K2(k),D,E)
+T4(K1(k),K2(k),D,E)
+T50(K1(k),K2(k),K3(k),A,B)
+T6(K1(k),K2(k),K3(k),A)
+S7(K1(k),A,B,C)
+T8(K1(k),K2(k),K3(k),A,B)
+T9(K1(k),K2(k),K3(k),A,B,C)
+G10(K1(k),K2(k),A)
+

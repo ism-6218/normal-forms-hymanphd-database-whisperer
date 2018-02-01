@@ -1,0 +1,17 @@
+Decompositions
+T32(K1,D)
+T31(K1,K2,E)
+T3= Join(T31,T32) =? Yes
+T502(K1,K2,A)
+T503(K1,K2,B)
+T501(K1,K2,K3,)
+T82(A,B)
+T81(K1,K2,K3,A)
+T8= Join(T81,T82) =? Yes
+T92(A,B,C)
+T91(K1,K2,K3,A,B)
+T9= Join(T91,T92) =? Yes
+R72(A,B)
+R73(B,C)
+R71(K1,A)
+R7= Join(R71,R72,R73) =? Yes
